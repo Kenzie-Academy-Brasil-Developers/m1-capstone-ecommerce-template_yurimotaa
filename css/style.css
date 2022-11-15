@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+}
+
+.sub-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-right: 47px;
+    cursor: pointer;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.vitrine{
+    margin-top: -515px;
+    max-width: 750px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produto{
+    margin-top: 10px;
+    margin-right: 35px;
+    max-width: 200px;
+    background-color: white;
+    border: solid #F5F5F5;
+    padding: 5px;
+    height: 410px;
+}
+
+.produto:hover{
+    margin-top: 10px;
+    max-width: 200px;
+    background-color: white;
+    border: solid #37268C;
+    padding: 5px;
+}
+
+.secao-produto{
+    background-color: #37268C;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.nome-produto{
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 160px;
+}
+
+.descricao-produto{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.valor-produto{
+    color: #37268C;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.botao-add{
+    background-color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.botao-add:hover{
+    background-color: #37268C;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+}
+
+.botao-pesquisar{
+    margin-left: 18px;
+    margin-right: 50px;
+    background-color: #37268C;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carrinho{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.paragrafo-carrinho{
+    list-style: none;
+    background-color: #37268C;
+    padding: 10px 60px 10px 60px;
+    color: white;
+}
+
+.carrinho-sub{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+}
+
+.produtos-carrinho{
+    list-style: none;
+    text-align: center;
+    padding-right: 50px;
+    overflow-y: scroll;
+    
+}
+
+.titulo-carrinho{
+    margin-bottom: 10px;
+}
+
+.p_numeroProdutos{
+    background-color: #37268C;
+    color: white;
+    padding: 15px;
+}
+
+.p_valorTotal{
+    background-color: #37268C;
+    color: white;
+    padding: 15px;
+}

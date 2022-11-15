@@ -26,7 +26,7 @@ const data = [
     img: "../img/mascara.svg",
     nameItem: "Mask",
     description:
-      "Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...",
+      "Esta máscara facial durável é feita de duas camadas de tecido tratado...",
     value: 40,
     addCart: "Adicionar ao carrinho",
     tag: ["Acessórios"],
@@ -56,7 +56,7 @@ const data = [
     img: "../img/moletom.svg",
     nameItem: "Champion Packable Jacket",
     description:
-      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...",
+      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta...",
     value: 100,
     addCart: "Adicionar ao carrinho",
     tag: ["Camisetas"],
